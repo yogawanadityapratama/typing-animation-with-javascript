@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body {
+    font-family: 'Silkscreen', cursive;
+    background-color: black;
+}
+.container {
+    padding-top: 300px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+}
+
+.container h1 span.typed-text {
+    color: blue;
+}
+
+.container h1 span.cursor {
+    display: inline-block;
+    background-color: blue;
+    margin-left: 1px;
+    width: 5px;
+    animation: blink 1s infinite;
+}
+
+.container h1 span.cursor.typing {
+    animation: none;
+}
